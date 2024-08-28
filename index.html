@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MorganFreeman</title>
+
+    <style>
+        .buttons{
+            display: flex;
+            gap: 15px;
+        }
+
+    </style>
+
 </head>
 <body>
     <h1>Morgan Freeman</h1>
@@ -38,12 +47,20 @@
     <ul>
         <li><a href="hobbies.html">My Hobbies</a></li>
         <li><a href="contact.html">Contact Me</a></li>
+        
     </ul>
     <hr />
     <h2>Click Counter</h2>
-    <button id="counter">Click Me!</button>
+    <div class="buttons">
+        <button id="counter">Click Me!</button>
+        <button id="clear">Reset</button>
+    </div>
     <div id="count"></div>
 
+
+    <script src="script.js"></script>
+
+    
 
 </body>
 </html>
